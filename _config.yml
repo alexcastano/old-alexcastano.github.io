@@ -1,0 +1,39 @@
+# Site settings
+title: Alex Castaño
+email: alexcastanodev@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Software development blog
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://alexcastano.com" # the base hostname & protocol for your site
+twitter_username: alexcasdel
+github_username:  alexcastano
+
+# Build settings
+markdown: kramdown
+
+# Take a look lsi options
+safe: true
+timezone: Europe/Madrid
+encoding: utf-8
+permalink: :title
+
+excerpt_separator: "\n\n\n"
+
+kramdown:
+  input: GFM # Github flavored markdown
+
+defaults:
+  -
+    scope:
+      path: ''
+
+    values:
+      author: Alex Castaño
+  -
+    scope:
+      path: ''
+      type: posts
+
+    values:
+      author: Alex Castaño
+      layout: post
