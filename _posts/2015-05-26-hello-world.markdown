@@ -1,7 +1,8 @@
 ---
 title:  "Hello World!"
 date:   2015-05-26 18:15:55
-category: blog
+comments: true
+tags: blog
 ---
 
 Welcome to my new development blog:

@@ -29,6 +29,7 @@ defaults:
 
     values:
       author: Alex Castaño
+      comments: true
   -
     scope:
       path: ''
